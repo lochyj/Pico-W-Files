@@ -1,3 +1,9 @@
+# Example:
+# credentials = {
+#     "2.4Ghz":
+#         ("ssid", "pass"),
+#}
+
 def get_credentials(file):
     creds = open(file, 'r');
     cred_lines = creds.read().replace('\r', '').split('\n');
